@@ -130,7 +130,7 @@ func main() {
 	}
 
 	if len(recipients) == 0 && len(recipients) == 0 {
-		log.Fatalf("--statuses required")
+		log.Fatalf("--recipients required")
 	}
 
 	if len(statuses) == 0 && len(statuses) == 0 {
